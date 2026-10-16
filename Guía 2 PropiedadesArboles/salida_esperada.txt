@@ -1,0 +1,120 @@
+==============================================
+       ESTRUCTURA DE PIXEL STUDIOS
+==============================================
+└── PIXEL STUDIOS
+   └── Desarrollo de Videojuegos
+      └── Programacion
+         └── Inteligencia Artificial
+         └── Modo Multijugador
+      └── Pruebas y Calidad
+   └── Diseno y Arte
+      └── Modelado 3D
+         └── Personajes 3D
+         └── Escenarios Virtuales
+      └── Animacion
+   └── Audio y Sonido
+      └── Musica
+         └── Banda Sonora
+      └── Efectos de Sonido
+
+==============================================
+          PROPIEDADES DEL ARBOL
+==============================================
+Raiz: PIXEL STUDIOS
+Numero total de nodos: 15
+Numero de hojas: 8
+Numero de nodos internos: 7
+Grado del arbol: 3
+Altura del arbol: 3
+Numero de niveles: 4
+
+==============================================
+       PROFUNDIDAD DE CINCO NODOS
+==============================================
+Desarrollo de Videojuegos       -> 1
+Programacion                    -> 2
+Inteligencia Artificial         -> 3
+Modelado 3D                     -> 2
+Banda Sonora                    -> 3
+
+==============================================
+             GRADO DE LOS NODOS
+==============================================
+PIXEL STUDIOS                   -> 3
+Desarrollo de Videojuegos       -> 2
+Programacion                    -> 2
+Modelado 3D                     -> 2
+Inteligencia Artificial         -> 0
+
+==============================================
+             TABLA DE METRICAS
+==============================================
+Nodo                               Grado    Nivel    Profundidad  Altura
+--------------------------------------------------------------------------
+PIXEL STUDIOS                      3        0        0            3
+Desarrollo de Videojuegos          2        1        1            2
+Programacion                       2        2        2            1
+Inteligencia Artificial            0        3        3            0
+Modo Multijugador                  0        3        3            0
+Pruebas y Calidad                  0        2        2            0
+Diseno y Arte                      2        1        1            2
+Modelado 3D                        2        2        2            1
+Personajes 3D                      0        3        3            0
+Escenarios Virtuales               0        3        3            0
+Animacion                          0        2        2            0
+Audio y Sonido                     2        1        1            3
+Musica                             1        2        2            2
+Banda Sonora                       0        3        3            0
+Efectos de Sonido                  0        2        2            0
+
+==============================================
+               CAMINOS DEL ARBOL
+==============================================
+Camino: PIXEL STUDIOS -> Desarrollo de Videojuegos -> Programacion -> Inteligencia Artificial
+Longitud: 3 aristas
+Camino: PIXEL STUDIOS -> Diseno y Arte -> Modelado 3D -> Escenarios Virtuales
+Longitud: 3 aristas
+
+==============================================
+          PROFUNDIDAD DE TODAS LAS HOJAS
+==============================================
+Pruebas y Calidad               -> 2
+Inteligencia Artificial         -> 3
+Modo Multijugador               -> 3
+Personajes 3D                   -> 3
+Escenarios Virtuales             -> 3
+Animacion                       -> 2
+Banda Sonora                    -> 3
+Efectos de Sonido               -> 2
+
+==============================================
+        COMPARACION DE ALTURAS
+==============================================
+Altura inicial: 3
+Altura final: 4
+Niveles iniciales: 4
+Niveles finales: 5
+Nodos iniciales: 15
+Nodos finales: 16
+Resultado: CORRECTO.
+Conclusion: al agregar un nivel, la altura aumenta de 3 a 4.
+
+==============================================
+             ARBOL ACTUALIZADO
+==============================================
+└── PIXEL STUDIOS
+   └── Desarrollo de Videojuegos
+      └── Programacion
+         └── Inteligencia Artificial
+            └── Proyecto IA Generativa
+         └── Modo Multijugador
+      └── Pruebas y Calidad
+   └── Diseno y Arte
+      └── Modelado 3D
+         └── Personajes 3D
+         └── Escenarios Virtuales
+      └── Animacion
+   └── Audio y Sonido
+      └── Musica
+         └── Banda Sonora
+      └── Efectos de Sonido
