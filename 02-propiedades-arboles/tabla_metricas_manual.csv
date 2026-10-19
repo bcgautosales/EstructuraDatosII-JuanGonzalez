@@ -1,0 +1,30 @@
+﻿Nodo,Padre,Nivel,Profundidad,Altura,Grado,EsHoja
+PIXEL STUDIOS,,0,0,3,3,No
+Desarrollo de Videojuegos,PIXEL STUDIOS,1,1,2,2,No
+Diseno y Arte,PIXEL STUDIOS,1,1,2,2,No
+Audio y Sonido,PIXEL STUDIOS,1,1,3,2,No
+Programacion,Desarrollo de Videojuegos,2,2,1,2,No
+Pruebas y Calidad,Desarrollo de Videojuegos,2,2,0,0,Si
+Modelado 3D,Diseno y Arte,2,2,1,2,No
+Animacion,Diseno y Arte,2,2,0,0,Si
+Musica,Audio y Sonido,2,2,2,1,No
+Efectos de Sonido,Audio y Sonido,2,2,0,0,Si
+Inteligencia Artificial,Programacion,3,3,0,0,Si
+Modo Multijugador,Programacion,3,3,0,0,Si
+Personajes 3D,Modelado 3D,3,3,0,0,Si
+Escenarios Virtuales,Modelado 3D,3,3,0,0,Si
+Banda Sonora,Musica,3,3,0,0,Si
+Proyecto IA Generativa,Inteligencia Artificial,4,4,0,0,Si
+
+//Explicación corta de los cambios
+Nodo: nombre de cada elemento del árbol.
+
+Padre: nodo del que depende directamente.
+
+Nivel y profundidad: distancia desde la raíz.
+
+Altura: distancia máxima desde el nodo hasta una hoja.
+
+Grado: cantidad de hijos directos.
+
+EsHoja: indica si el nodo no tiene hijos.
