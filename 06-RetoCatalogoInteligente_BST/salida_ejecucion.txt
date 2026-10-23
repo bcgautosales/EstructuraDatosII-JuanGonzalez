@@ -1,0 +1,95 @@
+========================================
+   INVENTARIO TECNOLÓGICO - BST
+========================================
+
+Secuencia de inserción aleatoria:
+400 90 280 460 220 40 60 480 520 320 200 120 440 180 360 
+
+Secuencia de inserción ascendente:
+40 60 90 120 180 200 220 280 320 360 400 440 460 480 520 
+
+--- ÁRBOL CON INSERCIÓN ALEATORIA ---
+            520
+        480
+    460
+        440
+400
+                360
+            320
+        280
+            220
+                200
+                        180
+                    120
+    90
+            60
+        40
+Altura del árbol: 6
+
+--- ÁRBOL CON INSERCIÓN ASCENDENTE ---
+                                                        520
+                                                    480
+                                                460
+                                            440
+                                        400
+                                    360
+                                320
+                            280
+                        220
+                    200
+                180
+            120
+        90
+    60
+40
+Altura del árbol: 14
+
+--- BÚSQUEDAS: ÁRBOL ALEATORIO ---
+
+Código consultado: 650
+¿Encontrado?: false
+Nodos comparados: 4
+Recorrido: 400 -> 460 -> 480 -> 520 -> null
+
+Código consultado: 725
+¿Encontrado?: false
+Nodos comparados: 4
+Recorrido: 400 -> 460 -> 480 -> 520 -> null
+
+--- BÚSQUEDAS: ÁRBOL ASCENDENTE ---
+
+Código consultado: 650
+¿Encontrado?: false
+Nodos comparados: 15
+Recorrido: 40 -> 60 -> 90 -> 120 -> 180 -> 200 -> 220 -> 280 -> 320 -> 360 -> 400 -> 440 -> 460 -> 480 -> 520 -> null
+
+Código consultado: 725
+¿Encontrado?: false
+Nodos comparados: 15
+Recorrido: 40 -> 60 -> 90 -> 120 -> 180 -> 200 -> 220 -> 280 -> 320 -> 360 -> 400 -> 440 -> 460 -> 480 -> 520 -> null
+
+========================================
+       RESUMEN DE LA COMPARACIÓN
+========================================
+Altura del árbol aleatorio: 6
+Altura del árbol ascendente: 14
+El árbol aleatorio obtuvo una altura menor.
+
+Conclusión: el orden de inserción influye en la forma del árbol BST. Cuando los códigos se insertan en orden ascendente, cada nuevo código puede quedar a la derecha del anterior. Esto genera un árbol parecido a una lista y puede hacer que las búsquedas sean más lentas.
+
+--- CATÁLOGO EN ORDEN DE CÓDIGO ---
+40 - Memoria USB - Almacenamiento - $35000.00
+60 - Mouse inalámbrico - Periféricos - $72000.00
+90 - Disco SSD - Almacenamiento - $245000.00
+120 - Teclado mecánico - Periféricos - $185000.00
+180 - Monitor LED - Pantallas - $640000.00
+200 - Fuente de poder - Componentes - $275000.00
+220 - Memoria RAM - Componentes - $160000.00
+280 - Adaptador de red - Redes - $65000.00
+320 - Router Wi-Fi - Redes - $210000.00
+360 - Tableta gráfica - Accesorios - $430000.00
+400 - Portátil - Computadores - $2850000.00
+440 - Cámara web HD - Periféricos - $135000.00
+460 - Impresora láser - Oficina - $780000.00
+480 - Audífonos USB - Audio - $98000.00
+520 - Proyector - Presentación - $1150000.00
