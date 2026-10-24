@@ -1,0 +1,20 @@
+EXPLORADORES DEL ARBOL - PRODUCTOS
+
+IDEA PRINCIPAL
+Cada producto tiene un código, un nombre y un precio. El árbol se organiza por código: los menores van a la izquierda y los mayores a la derecha.
+
+LOS CUATRO RECORRIDOS
+1. Preorden: raíz, izquierda, derecha. Muestra primero el producto principal.
+2. Inorden: izquierda, raíz, derecha. En un BST muestra los códigos de menor a mayor.
+3. Postorden: izquierda, derecha, raíz. Muestra los hijos antes que el nodo principal.
+4. Por niveles: de arriba hacia abajo y de izquierda a derecha. Usa una cola para recordar qué nodo sigue.
+
+COMPROBACIÓN
+Al final, comprobarInorden() revisa que cada código sea mayor que el anterior. Si todo está ordenado, imprime que la comprobación fue correcta.
+
+CÓMO EJECUTAR
+1. Abrir la carpeta en NetBeans o Visual Studio Code.
+2. Ejecutar Main.java. Si se usa la terminal, abrir esta carpeta y escribir: javac *.java
+3. Después escribir: java Main
+
+Los comentarios de los archivos Java explican cada parte con palabras sencillas.
